@@ -35,8 +35,8 @@ ul {
 .up {
   position: fixed;
   bottom: 10px;
-  left: 15px;
-  background-color: #2b4f02;
+  right: 15px;
+  background-color: #8a3ffc;
   color: white;
   font-weight: bold;
   font-size: 19px;
