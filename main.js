@@ -21,3 +21,18 @@ sr.reveal(".skill-bars", { delay: 100, origin: "bottom" });
 sr.reveal(".logos--img", { interval: 100 });
 sr.reveal(".skills-img", { origin: "top", delay: 100 });
 sr.reveal(".value--content , .contact--images", { origin: "right" });
+
+let span = document.querySelector(".up");
+
+window.onscroll = function () {
+  this.scrollY >= 800
+    ? span.classList.add("show")
+    : span.classList.remove("show");
+};
+
+span.onclick = function () {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+};
