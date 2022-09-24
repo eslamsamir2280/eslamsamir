@@ -36,3 +36,11 @@ span.onclick = function () {
     behavior: "smooth",
   });
 };
+
+let icondark = document.querySelector(".bxs-moon");
+let body = document.querySelector("body");
+
+const toggeldark = () => {
+  body.classList.toggle("dark");
+};
+icondark.addEventListener("click", () => toggeldark());
