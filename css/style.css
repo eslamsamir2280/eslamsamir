@@ -114,11 +114,16 @@ ul {
 .mob-icon {
   display: flex;
 }
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
   .about-img img {
     width: 500px !important;
   }
+  .about {
+    padding-top:130px !important;
 }
+  .landing img {
+      width: 500px !important;
+  }
 @media (max-width: 1410px) {
   .swiper-button-next {
     right: -1rem !important;
