@@ -118,6 +118,13 @@ ul {
   .about-img img {
     width: 500px !important;
   }
+  .about {
+    padding-top: 100px !important;
+  }
+  .landing img {
+    width: 500px !important;
+  }
+}
 @media (max-width: 1410px) {
   .swiper-button-next {
     right: -1rem !important;
